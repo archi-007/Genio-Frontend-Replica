@@ -166,10 +166,10 @@ export default function NavBar() {
   const MobileViewBar = (
     <Box component = {Grid} container style = {{"flexGrow":"1","flexDirection":"row"}}  display ={{ lg:"none" , md:"none" ,sm:"none"}}>
       <Grid item xs = {6} style = {{"padding":"10px","paddingLeft":"30px"}}>
-        <Typography variant = "h6" style ={{"color":"#2789E1"}}><b><Link component="button" to = '#'><img src = "/assets/images/genio.png" style = {{"height":"70px" , "float":"right"}}></img></Link></b></Typography>
+        <Typography variant = "h6" style ={{"color":"#2789E1"}}><b><Link component="button" to = '#'><img alt="" src = "/assets/images/genio.png" style = {{"height":"70px" , "float":"right"}}></img></Link></b></Typography>
       </Grid>
       <Grid item xs = {5}>
-        <Link to = '#' component = "button" style = {{"float":"right"}}><img src = "/assets/images/play_store_icon.png" style = {{"height":"50px" , "float":"right"}}></img></Link>
+        <Link to = '#' component = "button" style = {{"float":"right"}}><img alt="" src = "/assets/images/play_store_icon.png" style = {{"height":"50px" , "float":"right"}}></img></Link>
       </Grid>
     </Box>
   )
